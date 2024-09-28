@@ -1,0 +1,130 @@
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+nav.mainNav{
+    background-color: gray;
+    height: 50px;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 0px;
+}
+div.main{
+    display: flex;
+    height: 20px;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: space-around;    
+
+}
+.main .left{
+    flex-basis: 55%;
+     row-gap: 15px;
+
+
+}
+.main .left .tab{
+    display: flex;
+    flex-basis: 50%;
+    gap: 7px;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    
+}
+.main .right{
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: column;
+    row-gap: 15px;
+
+
+}
+.main .left  .Ftab{
+background-color: rgb(77, 74, 74);
+width: 100px;
+}
+.main .left  .Stab{
+    background-color: rgb(163, 157, 157);
+    width: 100px;
+}
+.main .left  .Ttab{
+    background-color: rgb(163, 157, 157);
+    width: 100px;
+    height: 35px;
+}
+.main .left .big{
+    background-color: rgb(77, 74, 74);
+    width: auto; ;
+    height: 200px;
+
+
+}
+.grid-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    row-gap: 50px;
+    margin-top: 25px;
+
+}
+.grid-item {
+    flex: 1 1 calc(20% - 20px); /* تم الاستعانة بهذه الخاصية من اليوتيوب*/
+    
+    height: 150px;
+    background-color: #a7a0a0;
+    align-items: center;
+}
+
+.main .right .Rtaps{
+    display: flex;
+    gap: 9px;
+    margin: 0 auto;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: center; 
+    width: 100%; 
+}
+.main .right .Rtaps .Rtap1{
+    background-color: rgb(163, 157, 157);
+    width: 40px;
+      
+}
+.main .right .Rtaps .Rtap2{
+    background-color: rgb(163, 157, 157);
+    width: 40px;
+}
+.main .right .Rtaps .Rtap3{
+    background-color: rgb(163, 157, 157);
+    width: 40px;
+}
+.main .right .pRight{
+    background-color: rgb(139, 138, 138);
+    width: auto; ;
+    height: 200px;
+    flex-grow: 0;
+
+}
+.main .right .rightCon h2{
+    background-color: #504e4e;
+
+}
+.main .right .rightCon img{
+    float: left;
+}
+.main .right .SecRightCon img{
+    float: left;
+}
+.main .right .SecRightCon h5{
+    background-color: #504e4e;
+
+}
+div.tab span{
+    position: absolute;
+    right: 0;
+}
